@@ -1,0 +1,1 @@
+return ((int)(Counter / 2) != Counter / 2.00 && Counter != 0);
