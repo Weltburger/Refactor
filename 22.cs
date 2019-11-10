@@ -3,4 +3,3 @@ if (Game1.clou == true)
  else
  { Game1.clou = true; }
 
- //aaaaaaaaaaaaaaaaaaaaaaaa
