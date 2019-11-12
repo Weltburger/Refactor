@@ -62,3 +62,7 @@ private string selectDay(int a)
 			 break;
  	}
 }
+
+//-------------------------------
+
+ string days = {"Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday", "Sunday"};

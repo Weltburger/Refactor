@@ -27,3 +27,14 @@ private List<int> select(arr[])
 }
 
 tmpArr = select(arr);
+
+//-------------------------------------------------------------------------
+
+void method11(){
+List<int> arr = new List<int>();
+    for (int i = 0; i < arr.Count; i++)
+    {
+    if (arr[i] > 100);
+        arr.RemoveAt(i);
+    }
+}
