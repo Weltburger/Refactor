@@ -25,3 +25,40 @@ for( int i = 0; i < 7; i++ ) {
  break;
  }
 }
+
+//------------------------------------
+
+String[] days = new String[7];
+for( int i = 0; i < 7; i++ ) 
+{
+	days[i] = selectDay(i);
+}
+
+private string selectDay(int a)
+{
+	 switch(i) 
+	 {
+		 default:
+		 case 0:
+			 return "Monday";
+			 break;
+		 case 1:
+			 return "Tuesday";
+			 break;
+		 case 2:
+			 return "Wednesday";
+			 break;
+		 case 3:
+			 return "Thursday";
+			 break;
+		 case 4:
+			 return "Friday";
+			 break;
+		 case 5:
+			 return "Saturday";
+			 break;
+		 case 6:
+			 return "Sunday";
+			 break;
+ 	}
+}

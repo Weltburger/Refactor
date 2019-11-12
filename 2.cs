@@ -14,5 +14,6 @@ switch (driver.Status)
  return m_driverStatusNames[ClientStatus.Break];
  case ClientStatus.Alarm:
  return m_driverStatusNames[ClientStatus.Alarm];
-}
+}
+
 m_driverStatusNames[driver.Status]
